@@ -1,75 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 
-*{
+* {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
-.text-gray{
+.text-gray {
     color: #0B0223;
-  }
+}
 
-  .section-title{
+.section-title {
     font-size: 2.8rem;
     font-weight: 700;
     color: black;
-} 
-nav{
+}
+/* nav section */
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-nav > ul {
-    display: flex; 
+nav>ul {
+    display: flex;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     color: #424242;
 }
-.nav-main{
+
+.nav-main {
     display: flex;
 }
 
-.nav-one{
+.nav-one {
     padding-top: 52px;
- 
+
 }
 
-.nav-two{
+.nav-two {
     display: flex;
     width: 600px;
-   
+
 }
 
-.nav-three > ul {
+.nav-three>ul {
     display: flex;
 }
 
-.nav-four{
+.nav-four {
     display: flex;
     padding-top: 10px;
     width: 262px;
-    height: 40px;  
-    justify-content: space-around; 
+    height: 40px;
+    justify-content: space-around;
     border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10); 
-         
+    background: rgba(11, 2, 35, 0.10);
+
 }
-.nav-four > img {
+
+.nav-four>img {
     height: 1.7rem;
     width: 2rem;
 }
-#text-follow-us{
+
+#text-follow-us {
     padding-top: 5px;
 }
 
+/* sign in section */
+.goat-font {
+    font-size: 95px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+#play-like-font {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 70px;
+}
+
+.sign-in {
+    display: flex;
+    padding-right: 200px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.sign-in-content {
+    margin: 0 auto;
+    width: 901px;
+    height: 680px;
+    padding-right: 80px;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.paragraph-font {
+    padding-bottom: 90px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
