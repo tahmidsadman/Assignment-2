@@ -287,9 +287,10 @@ nav li a {
 .footer-whole {
     border: 2px solid black;
     width: 1920px;
-    height: 636px;
+    height: 800px;
     flex-shrink: 0;
-    background-color:  #0B0223;;
+    background-color: #0B0223;
+    ;
 }
 
 .textline-one>ul {
@@ -304,8 +305,37 @@ nav li a {
     line-height: normal;
 }
 
-.nav-footer{
+.nav-footer {
     display: flex;
     justify-content: center;
     padding-top: 100px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 600px 10px;
+    list-style-type: none;
+}
+
+.textline-two>ul {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 80px 550px 0px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 40px;
 }
