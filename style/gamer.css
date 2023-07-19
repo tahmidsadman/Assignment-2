@@ -263,7 +263,7 @@ nav li a {
     padding-left: 350px;
     padding-bottom: 50px;
     padding-top: 50px;
-    
+
 }
 
 .second-icon-row {
@@ -280,4 +280,32 @@ nav li a {
     line-height: normal;
     padding-top: 20px;
     padding-left: 8px;
+}
+
+/* footer */
+
+.footer-whole {
+    border: 2px solid black;
+    width: 1920px;
+    height: 636px;
+    flex-shrink: 0;
+    background-color:  #0B0223;;
+}
+
+.textline-one>ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0 550px 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
