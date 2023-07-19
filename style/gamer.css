@@ -150,9 +150,11 @@ nav li a {
 .og-content {
     color: #0B0223;
     text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    font-style: normal;
+    padding-bottom: 20px;
 }
 
 .og-img {
@@ -221,7 +223,6 @@ nav li a {
     display: flex;
     justify-content: space-between;
     padding: 150px;
-    margin-top: 0px;
 }
 
 .feature-content-sec {
@@ -243,6 +244,13 @@ nav li a {
 
 /* icons */
 
+.background-color {
+    width: 1920px;
+    height: 427px;
+    flex-shrink: 0;
+    background-color: rgb(217, 195, 217);
+}
+
 .icon-img {
     width: 60px;
     height: 60px;
@@ -256,6 +264,7 @@ nav li a {
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
+    padding: 10px;
 }
 
 .first-icon-row {
@@ -280,6 +289,17 @@ nav li a {
     line-height: normal;
     padding-top: 20px;
     padding-left: 8px;
+    border-radius: 50px;
+}
+
+.icon-container:hover {
+    border: 1.5px solid #FF42A5;
+    cursor: pointer;
+    background-color: peachpuff;
+}
+
+.box:hover {
+    color: #8758F1;
 }
 
 /* footer */
